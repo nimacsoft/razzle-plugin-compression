@@ -1,0 +1,30 @@
+{
+  "name": "razzle-plugin-compression",
+  "version": "1.0.0",
+  "description": "Razzle plugin to Compress bundle",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nimacsoft/razzle-plugin-compression.git"
+	},
+  "keywords": [
+    "razzle",
+    "plugin",
+		"compression",
+		"gzip",
+		"brotli"
+  ],
+  "author": "Nima Arefi <nimaarefi@outlook.com> (https://twitter.com/nima_arf)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nimacsoft/razzle-plugin-compression/issues"
+	},
+	"dependencies": {
+		"compression-webpack-plugin": "^3.0.0",
+		"brotli-webpack-plugin": "^1.1.0"
+	},
+  "homepage": "https://github.com/nimacsoft/razzle-plugin-compression#readme"
+}
